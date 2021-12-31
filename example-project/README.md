@@ -6,7 +6,7 @@
 
 ```sh
 $ nix-shell
-[nix-shell]$ pip install -r requirements.txt
+# All the dependencies in requirements.txt will be installed automatically
 [nix-shell]$ jupyter lab build
 [nix-shell]$ jupyter lab
 ```
