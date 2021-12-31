@@ -6,4 +6,7 @@ pkgs.mkShell {
   buildInputs = [
     (python-env { projectRoot = ./.; python = pkgs.python38; })
   ];
+  shellHook = ''
+    pip-sync
+  '';
 }
