@@ -1,3 +1,6 @@
 jupyterlab
 matplotlib
 pandas
+
+# OS-specific dependency example
+appnope; sys_platform == "darwin"

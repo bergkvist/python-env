@@ -6,6 +6,11 @@
 #
 anyio==3.4.0
     # via jupyter-server
+appnope==0.1.2 ; sys_platform == "darwin"
+    # via
+    #   -r requirements.in
+    #   ipykernel
+    #   ipython
 argon2-cffi==21.3.0
     # via
     #   jupyter-server
